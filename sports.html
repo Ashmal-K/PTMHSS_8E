@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="css/sports.css">
+</head>
+<body>
+    <header id="header">
+        <section class="header-title-line">
+            <h1>8E PTMHSS</h1>
+            <button class="menu-button" title="Open Nav Menu">
+                <div id="menu-icon" class="menu-icon"></div>
+            </button>
+        </section>
+
+        <button class="closeMenuBtn" title="Close Nav Menu" tabindex="-1"></button>
+        <nav>
+            <ul>
+                <li><a href="/PTMHSS_8E/">Home</a></li>
+                <li><a href="/PTMHSS_8E/sports.html">Sports</a></li>
+                <li><a href="/PTMHSS_8E/Class-Toppers.html">Class Toppers</a></li>
+                <li><a href="/PTMHSS_8E/Education.html">Education</a></li>
+                <li><a href="/PTMHSS_8E/Duty.html">Duty</a></li>
+                <li><a href="/PTMHSS_8E/Daily Works.html">Daily Works</a></li>
+                <li><a href="/PTMHSS_8E/USS.html">USS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div style="text-align: center; color: #fff;"><h1>SCHOOL</h1></div>
+        <div class="school">
+            <img src="img/WhatsApp Image 2022-11-10 at 17.19.32.jpg" alt="" style="height: 250px; width: 180px; margin-left: 200px;">
+            <img src="img/WhatsApp Image 2022-11-11 at 22.41.15.jpg" alt="" style="height: 250px; margin-left: 190px;">
+            <img src="img/WhatsApp Image 2022-11-12 at 21.24.00.jpg" alt="" style="height: 250px; margin-left: 200px;">
+        </div>
+        <div style="text-align: center; color: #fff;"><h1>SUB JILLA</h1></div>
+        <div class="sub">
+            <img src="img/WhatsApp Image 2022-11-10 at 17.19.32.jpg" alt="" style="height: 250px; width: 180px; margin-left: 200px;">
+            <img src="img/WhatsApp Image 2022-11-11 at 22.41.15.jpg" alt="" style="height: 250px; margin-left: 190px;">
+            <img src="img/WhatsApp Image 2022-11-10 at 17.19.46.jpg" alt="" style="height: 250px;margin-left: 200px;">
+        </div>
+        <div style="display: flex; justify-content: center; color: #fff;"><h1>FOOTBALL</h1></div>
+        <div><img src="img/WhatsApp Image 2022-11-12 at 08.27.34.jpg" alt="" style="height: 250px;"></div>
+    </section>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById('header')
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add('bgc')
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove("sticky");
+                header.classList.remove("bgc");
+            }
+        }
+    </script>
+</body>
+</html>

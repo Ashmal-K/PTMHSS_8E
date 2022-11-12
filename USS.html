@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USS</title>
+    <link rel="stylesheet" href="css/uss.css">
+</head>
+<body>
+    <header id="header">
+        <section class="header-title-line">
+            <h1>8E PTMHSS</h1>
+            <button class="menu-button" title="Open Nav Menu">
+                <div id="menu-icon" class="menu-icon"></div>
+            </button>
+        </section>
+        <button class="closeMenuBtn" title="Close Nav Menu" tabindex="-1"></button>
+        <nav>
+            <ul>
+                <li><a href="/PTMHSS_8E/">Home</a></li>
+                <li><a href="/PTMHSS_8E/sports.html">Sports</a></li>
+                <li><a href="/PTMHSS_8E/Class-Toppers.html">Class Toppers</a></li>
+                <li><a href="/PTMHSS_8E/Education.html">Education</a></li>
+                <li><a href="/PTMHSS_8E/Duty.html">Duty</a></li>
+                <li><a href="/PTMHSS_8E/Daily Works.html">Daily Works</a></li>
+                <li><a href="/PTMHSS_8E/USS.html">USS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div style="background-color: rgb(23, 21, 177); color: #fff; text-align: center;"><h1>USS 2022</h1></div>
+        <div class="uss">
+            <div class="uss-details">
+                <img src="img/WhatsApp Image 2022-11-10 at 17.19.27.jpg" alt="" style="height: 300px; margin-left: 30px;">
+                <h3 style="margin-left: 40px;" >AJWAD AYMAN</h3>
+            </div>
+            <div  class="uss-details">
+                <img src="img/WhatsApp Image 2022-11-12 at 13.22.28.jpg" alt="" style="height: 300px; margin-left: 30px;">
+                <h3 style="margin-left: 10px;">NISHAN RAHMAN P V</h3>
+            </div>
+            <div  class="uss-details">
+                <img src="img/WhatsApp Image 2022-11-12 at 13.48.08.jpg" alt="" style="height: 300px; margin-left: 30px;">
+                <h3 style="margin-left: 60px;">MILI AMNA E</h3>
+            </div>
+        </div>
+    </section>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById('header')
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add('bgc')
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove("sticky");
+                header.classList.remove("bgc");
+            }
+        }
+    </script>
+</body>
+</html>
