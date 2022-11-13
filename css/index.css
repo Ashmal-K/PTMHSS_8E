@@ -201,9 +201,24 @@ nav a:focus {
 body{
     background-image: linear-gradient(to left, midnightblue, rebeccapurple);
 }
+.awards{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.awards div img{
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
     }
-    
+    .awards{
+        flex-flow: row nowrap;
+    }
 }
