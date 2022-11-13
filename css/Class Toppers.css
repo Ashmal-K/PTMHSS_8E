@@ -207,12 +207,12 @@ body {
     background-image: linear-gradient(to left, midnightblue, rebeccapurple);
 }
 table, td, th {  
-    border: 1px solid #ddd;
+    border: 1px solid rgb(0, 0, 0);
     text-align: left;
   }
   
 table {
-    color: #FFF;
+    color: rgb(4, 4, 4);
     border-collapse: collapse;
     width: 100%;
 }
@@ -229,7 +229,7 @@ td{
         width: 25%;
     }
     table{
-        color: #FFF;
+        color: rgb(13, 13, 13);
         margin-left: 65px;
         border-collapse: collapse;
         width: 90%;
