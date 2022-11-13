@@ -207,8 +207,12 @@ body{
 .school{
     display: flex;
     flex-flow: row nowrap;
+    margin-top: 50px; 
+    margin-bottom: 30px;
 }
 .sub{
+    margin-top: 50px; 
+    margin-bottom: 30px;
     display: flex;
     flex-flow: row nowrap;
 }
