@@ -205,16 +205,19 @@ body{
     background-image: linear-gradient(to left, midnightblue, rebeccapurple);
 }
 .school{
-    display: flex;
-    flex-flow: row nowrap;
     margin-top: 50px; 
     margin-bottom: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
 }
 .sub{
     margin-top: 50px; 
     margin-bottom: 30px;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
 }
 @media screen and (min-width: 768px){
     nav{
