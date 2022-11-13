@@ -210,6 +210,10 @@ body{
    margin-left: 20%;
    color: #fff;
 }
+.uss-details:hover{
+    padding-top: 10px;
+    padding-left: 10px;
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;

@@ -219,6 +219,10 @@ body{
     flex-flow: row nowrap;
     justify-content: center;
 }
+.hover:hover{
+    padding-top: 10px;
+    padding-left: 10px;
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
