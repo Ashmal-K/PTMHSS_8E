@@ -13,7 +13,6 @@
 
 html {
     font-size: 1.5rem;
-    font-family: 'Nunito', sans-serif;
 }
 
 header {
@@ -210,11 +209,44 @@ body{
     flex-flow: column nowrap;
     color: rgb(255, 255, 255);
 }
+
+.scroll{
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    color: rgb(252, 252, 252);
+}
+.scroll div{
+    margin-top: 20px;
+}
+.scroll div h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.work{
+    background-color: #fff; width: 95%; margin-left: 2.5%; border: 2px solid white;
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
     }
     .contact-details{
         margin-left: 270px;
+    }
+    .scroll div h4{
+        margin-top: 30px;
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .scroll{
+        height: 650px;
+    }
+    .work{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .scroll div h4{
+        font-size: 30px;
     }
 }
