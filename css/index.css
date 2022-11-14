@@ -243,7 +243,7 @@ body {
         flex-flow: row nowrap;
         width: 90%;
         margin-left: 50px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 50px;
     }
 
@@ -251,5 +251,33 @@ body {
         margin-left: 50px;
         width: 400px;
         height: 300px;
+    }
+}
+@media screen and (max-width: 400px){
+    .awards div img {
+        margin-left: 40px;
+        width: 270px;
+        height: 300px;
+    }
+    .awards {
+        flex-flow: column nowrap;
+        width: 90%;
+        margin-left: 2.5%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    .awards div img {
+        margin-left: 20px;
+        width: 250px;
+        height: 210px;
+    }
+    .awards {
+        flex-flow: column nowrap;
+        width: 90%;
+        margin-left: 2.5%;
+        margin-top: 40px;
+        margin-bottom: 50px;
     }
 }
