@@ -224,6 +224,12 @@ td{
     padding: 10px;
     padding-left: 40px;
 }
+.contact-details{
+    margin-left: 10px;  
+    display: flex; 
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
@@ -231,5 +237,8 @@ td{
     table{
         width: 80%;
         margin-left: 120px;
+    }
+    .contact-details{
+        margin-left: 270px;
     }
 }

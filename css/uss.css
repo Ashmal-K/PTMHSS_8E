@@ -214,6 +214,12 @@ body{
     padding-top: 10px;
     padding-left: 10px;
 }
+.contact-details{
+    margin-left: 10px;  
+    display: flex; 
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
@@ -224,5 +230,8 @@ body{
     .uss{
         display: flex;
         flex-flow: row nowrap;
+    }
+    .contact-details{
+        margin-left: 270px;
     }
 }

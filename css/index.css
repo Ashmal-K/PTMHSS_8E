@@ -180,48 +180,77 @@ nav a:focus {
     transform: scale(1.2);
     transition: all 0.3s;
 }
-.bgc{
+
+.bgc {
     background-color: rgb(54, 54, 54);
     color: rgb(255, 255, 255);
     animation: show 1.5s ease-in-out forwards;
 }
-@keyframes show{
-    0%{
+
+@keyframes show {
+    0% {
         transform: translateY(-50px);
     }
-    80%{
+
+    80% {
         transform: translateY(10px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-body{
+
+body {
     background-image: linear-gradient(to left, midnightblue, rebeccapurple);
 }
-.awards{
+
+.awards {
     display: flex;
     flex-flow: column nowrap;
     width: 90%;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 40px;
     margin-bottom: 50px;
 }
-.awards div img{
-    margin-left: 50px;
+
+.awards div img {
+    margin-left: 10px;
+    margin-top: 30px;
     width: 400px;
     height: 300px;
 }
-@media screen and (min-width: 768px){
-    nav{
+.contact-details{
+    margin-left: 10px;  
+    display: flex; 
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) {
+    nav {
         width: 25%;
     }
-    .awards{
+    .contact-details{
+        margin-left: 270px;
+    }
+    .awards {
         flex-flow: row nowrap;
+        width: 90%;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .awards div img {
+        margin-left: 50px;
+        width: 400px;
+        height: 300px;
     }
 }

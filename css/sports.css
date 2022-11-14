@@ -208,23 +208,70 @@ body{
     margin-top: 50px; 
     margin-bottom: 30px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    
+    flex-flow: column nowrap;
+    color: #fff;
 }
 .sub{
     margin-top: 50px; 
     margin-bottom: 30px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    color: #fff;
+}
+.hover{
+    margin-top: 40px;
+    text-align: center;
+}
+.hover img{
+    width: 250px;
 }
 .hover:hover{
-    margin-top: 10px;
-    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+.contact-details{
+    margin-left: 10px;  
+    display: flex; 
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
 }
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
+    }
+    .contact-details{
+        margin-left: 270px;
+    }
+    .school{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .sub{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .hover{
+        margin-top: 0;
+        text-align: none;
+        justify-content: center;
+    }
+    .hover img{
+        width: auto;
+    }
+    .img-1{
+        margin-left: 70px;
+    }
+    img{
+       margin-left: 100px;
+    }
+    .hover div{
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: center;
+       margin-left: 90px;
+    }
+    .img-2{
+       margin-right: 120px;
     }
 }
