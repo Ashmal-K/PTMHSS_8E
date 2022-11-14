@@ -232,7 +232,6 @@ body {
     flex-flow: column nowrap;
     color: rgb(255, 255, 255);
 }
-
 @media screen and (min-width: 768px) {
     nav {
         width: 25%;
