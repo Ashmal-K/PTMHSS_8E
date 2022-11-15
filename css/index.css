@@ -226,18 +226,9 @@ body {
     width: 400px;
     height: 300px;
 }
-.contact-details{
-    margin-left: 10px;  
-    display: flex; 
-    flex-flow: column nowrap;
-    color: rgb(255, 255, 255);
-}
 @media screen and (min-width: 768px) {
     nav {
         width: 25%;
-    }
-    .contact-details{
-        margin-left: 270px;
     }
     .awards {
         flex-flow: row nowrap;

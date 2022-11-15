@@ -1,0 +1,95 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main div{
+    margin-top: 10px;
+}
+.CPTA-size{
+    background-color: #fff;
+    width: 700px;
+    height: 550px;
+}
+.CPTA-head{
+    display: flex;
+    justify-content: center;
+}
+.CPTA-head h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+.CPTA-DETAILS{
+    margin-top: 30px;
+}
+.CPTA-DETAILS h3{
+    margin-left: 60px;
+    margin-top: 19px;
+}
+.CPTA-DETAILS h2{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+.CPTA-DETAILS h4{
+    font-size: 25px;
+    margin-top: 19px;
+    margin-left: 60px;
+}
+@media screen and (max-width: 815px) {
+    .main{
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .CPTA-size{
+        max-width: 400px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main{
+        justify-content: center;
+        margin-right: 15px;
+    }
+    .CPTA-size{
+        max-width: 350px;
+        height: 400px;
+    }
+    .CPTA-DETAILS{
+        margin-top: 40px;
+    }
+    .CPTA-DETAILS h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .CPTA-DETAILS h2{
+        
+    }
+    .CPTA-DETAILS h4{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .main{
+        justify-content: center;
+        margin-right: 12px;
+    }
+    .CPTA-size{
+        max-width: 280px;
+        height: 400px;
+    }
+    .CPTA-DETAILS{
+        margin-top: 40px;
+    }
+    .CPTA-DETAILS h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .CPTA-DETAILS h2{
+        
+    }
+    .CPTA-DETAILS h4{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}

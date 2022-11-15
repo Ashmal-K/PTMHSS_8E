@@ -203,13 +203,6 @@ nav a:focus {
 body{
     background-image: linear-gradient(to left, midnightblue, rebeccapurple);
 }
-.contact-details{
-    margin-left: 10px;  
-    display: flex; 
-    flex-flow: column nowrap;
-    color: rgb(255, 255, 255);
-}
-
 .scroll{
     background-color: rgb(70, 70, 70);
     width: 100%;
@@ -227,12 +220,33 @@ body{
 .work{
     background-color: #fff; width: 95%; margin-left: 2.5%; border: 2px solid white;
 }
+.contact-details{
+    margin-top: 20px;
+    margin-left: 10px;  
+    display: flex; 
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+}
+.contact-details h4{
+    margin-top: 10px;
+}
+.footer-text {
+    background-color: rgb(73, 73, 233);
+    color: #fff;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+}
+.footer-text h4{
+    margin-top: 10px;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 768px){
     nav{
         width: 25%;
-    }
-    .contact-details{
-        margin-left: 270px;
     }
     .scroll div h4{
         margin-top: 30px;
@@ -248,5 +262,61 @@ body{
     }
     .scroll div h4{
         font-size: 30px;
+    }
+    .contact-details{
+        margin-top: 30px;
+        margin-left: 270px;
+    }
+}
+@media screen and (max-width: 768px){
+    nav{
+        width: 25%;
+    }
+    .contact-details{
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+    .contact-details h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contact-details{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .contact-details h4{
+        font-size: 20px;
+    }
+    .footer-text h4{
+        font-size: 20px;
+    }
+    .contact-title h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 416px){
+    .contact-details{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .contact-details h4{
+        font-size: 15px;
+    }
+    .footer-text h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 316px){
+    .contact-details{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .contact-details h4{
+        font-size: 12px;
+    }
+    .footer-text h4{
+        font-size: 12px;
     }
 }
