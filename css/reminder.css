@@ -220,17 +220,23 @@ section{
     height: 400px;
     margin-bottom: 80px;
 }
-.reminder div h4{
+.Question h4{
     color: #fff;
     margin-top: 60px;
     margin-left: 10px;
 }
-.reminder div .Question:hover{
+.Question:hover{
     margin: 0;
-    text-align: center;
+    background-color: rgb(42, 41, 41);
 }
-.reminder div h4:hover{
-    
+.h::before{
+    content: '';
+}
+.h::after{
+    content: 'Tomorrow Roll Number 20 Want to write Question';
+}
+.h:hover{
+    content: 'BRING';
 }
 @media screen and (min-width: 768px){
     nav{
