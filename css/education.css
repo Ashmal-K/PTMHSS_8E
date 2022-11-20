@@ -47,10 +47,10 @@
     }
     .TEXT-DETAILS{
         margin-top: 45px;
-        margin-left: 50px;
+        margin-left: 65px;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:310px){
     .TEXT-DETAILS{
         margin-top: 45px;
         margin-left: 30px;
